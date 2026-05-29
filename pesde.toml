@@ -1,0 +1,12 @@
+name = "idkaboutbytes/sortfunctionutils"
+version = "1.0.1"
+description = "SortFunctionUtils package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/sortfunctionutils"
+includes = ["pesde.toml", "README.md", "CHANGELOG.md", "default.project.json", "src/**/*.luau"]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
